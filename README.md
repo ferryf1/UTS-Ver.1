@@ -14,12 +14,11 @@ Ketentuan validasi input data  adalah:
 - NIM hanya boleh berisi angka dan panjangnya harus 10 digit
 - Kelas hanya diisi dengan satu pilihan, yaitu: 5A, 5B, 5C, 5D atau 5E
 - Mata Kuliah Pilihan, dapat diisi lebih dari satu pilihan, dari daftar 5 mata kuliah yang tersedia yaitu:
-  
-  _- Web Application Development,
+  - Web Application Development,
   - Mobile Application Development,
   - UI/UX Design,
-  - Software Engineering,_ dan
-  _- Data Engineering._
+  - Software Engineering, dan
+  - Data Engineering.
 
 Simpan data tersebut dalam tabel pada database. Nama tabel: **krs** dan nama database: **uts5e**.
 Proses pembuatan database dan tabel dilakukan menggunakan script PHP. 
