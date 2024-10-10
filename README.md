@@ -1,5 +1,5 @@
 # UTS-Ver.1
-UTS Praktikum Pemrograman Web (soal versi 1)
+UTS Praktikum Pemrograman Web (update ke versi 2)
 --------------------------------------------
 
 Buatlah sebuah form untuk mengisi data-data sebagai berikut:
@@ -7,6 +7,7 @@ Buatlah sebuah form untuk mengisi data-data sebagai berikut:
 - NIM 
 - Kelas
 - Mata Kuliah Pilihan
+- Unggah file KHS (Kartu Hasil Studi) 
 
 Ketentuan validasi input data  adalah:
 - semua field wajib diisi (required)
@@ -19,8 +20,9 @@ Ketentuan validasi input data  adalah:
   - UI/UX Design,
   - Software Engineering, dan
   - Data Engineering.
-
-Simpan data tersebut dalam tabel pada database. Nama tabel: **krs** dan nama database: **uts5e**.
-Proses pembuatan database dan tabel dilakukan menggunakan script PHP. 
+- File yang diunggah harus bertipe PDF, ukuran maksimal 2M
+Simpan data tersebut dalam tabel pada database. Nama tabel: **krs** dan nama database: **uts5d**.
+Direktori penyimpanan unggahan file diberi nama: **uploadKHS**
+Proses pembuatan database dan tabel dilakukan menggunakan _script_ PHP. 
 
 Lengkapi **operasi CRUD** (_Create, Read, Update, Delete_) untuk mengelola data tersebut.
